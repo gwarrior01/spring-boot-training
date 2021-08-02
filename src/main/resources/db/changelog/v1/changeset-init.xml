@@ -6,7 +6,7 @@
 
     <changeSet author="greatwarrior" id="2">
         <createTable tableName="book">
-            <column autoIncrement="true" name="id" type="INTEGER">
+            <column autoIncrement="true" name="id" type="BIGINT">
                 <constraints nullable="false" primaryKey="true" primaryKeyName="book_pkey"/>
             </column>
             <column name="title" type="VARCHAR(255)"/>
